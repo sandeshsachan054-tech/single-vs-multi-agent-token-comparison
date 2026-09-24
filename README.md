@@ -180,7 +180,7 @@ Note: This result is specific to the tested query, prompts, model configuration,
 # The multi-agent architecture introduces additional LLM interactions.
 
 For example:
-
+```bash
 User
   ↓
 Manager
@@ -198,11 +198,12 @@ Math Agent
 Manager
   ↓
 Final Answer
+```
 
 Every manager and specialist interaction can introduce additional input and output tokens.
 
 # The single-agent system can instead maintain one agent loop:
-
+```bash
 User
   ↓
 Single Agent
@@ -214,11 +215,11 @@ Single Agent
 Tool
   ↓
 Final Answer
-
+```
 This experiment therefore demonstrates a measurable token/call overhead associated with the multi-agent orchestration used in this implementation.
 
 ## Project Structure
-
+```bash
 single-vs-multi-agent-token-comparison/
 │
 ├── .env
@@ -236,6 +237,7 @@ single-vs-multi-agent-token-comparison/
 ├── notes.txt
 │
 └── README.md
+```
 ## File Responsibilities
 
 File	                              Purpose
