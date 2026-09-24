@@ -411,12 +411,6 @@ LLM Tool Calling • Single Agents • Multi-Agent Systems • Agent Orchestrati
 Implemented from scratch in Python without LangChain, LangGraph, CrewAI, or AutoGen.
 
 
-### GitHub ke liye ek chhota description bhi rakhna:
-
-> **A Python project comparing single-agent and multi-agent LLM architectures using Groq, Tavily web search, a Python calculator, and token usage tracking.**
-
-Aur repo ka naam jo humne choose kiya tha:
-
 ```text
 single-vs-multi-agent-token-comparison
 ```
